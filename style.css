@@ -1,4 +1,5 @@
-#container{
+
+#container {
     height: 1700px;
     position: relative;
     background: url("img/website-background.jpg") no-repeat center center fixed
@@ -8,14 +9,16 @@ a {
     text-decoration: none;
     color: #C0FFFF;
 }
-a:visited{
+
+a:visited {
     color: #A0A0A0;
 }
 
 p {
     text-align: center;
 }
-#navbar{
+
+#navbar {
     display: block;
     text-align: center;
     width: 100%;
@@ -24,13 +27,14 @@ p {
     top: 0px;
     z-index: 999;
 }
+
 #story {
     text-align: center;
     background-color: rgba(80, 80, 80, 0.3);
     color: #FFF;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-
 }
+
 #navbar a {
     display: inline-block;
     text-decoration: none;
@@ -39,6 +43,7 @@ p {
     font-size: 30px;
     line-height: 90px;
 }
+
 #intro {
     /*background-color: blue;*/
     /*margin-top: 100px;*/
@@ -46,24 +51,26 @@ p {
     color: #EEE;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
+
 #projects {
     /*background-color: red;*/
     height: 800px;
     position: relative;
     border: 10px solid;
 }
+
 #menu {
     height: 560px;
     /*width: 80%;
     left: 8.5%;*/
-    position: absolute;;
-
+    position: absolute;
+    ;
     /*background-color: purple;*/
     overflow: scroll;
     color: #EEE;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-
 }
+
 .week {
     height: 200px;
     width: 200px;
@@ -74,22 +81,27 @@ p {
     /*border: 10px solid white;*/
     margin: 0 35px;
     margin-top: 25px;
-
-
 }
+
 .week img {
     height: 200px;
     width: 200px;
     margin-top: 25px;
 }
+
 #contact {
     /*background-color: grey;*/
     text-align: center;
     color: #EEE;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
+
 #contact img {
     height: 250px;
     width: 250px;
     margin: 0 100px;
+}
+
+body {
+    background-color: black;
 }
