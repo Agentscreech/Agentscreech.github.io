@@ -26,6 +26,7 @@ p {
     height: 100px;
     /*background-color: rgba(50, 50, 50, 0.8);*/
     top: 0px;
+    justify-content: center;
     z-index: 999;
 }
 
