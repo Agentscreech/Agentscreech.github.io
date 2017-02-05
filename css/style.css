@@ -5,25 +5,21 @@ font-family: "Roboto", sans serif;
 font-weight: 200;
 }
 
-nav{
-  width: 70%
-}
-
 nav ul a.active {
   background: rgba(0,0,0,0.2);
 }
 
 body {
-    background: url("img/website-background.jpg") no-repeat center center fixed;
+    background: url("../img/website-background.jpg") no-repeat center center fixed;
     background-color: black;
 
 }
 .project {
-    background: url("img/circuit_board.jpg")
+    background: url("../img/circuit_board.jpg")
 }
 
 #resume {
-    margin-left: 50px;
+    margin-left: 10%;
     font-weight: 400;
 }
 
@@ -104,11 +100,22 @@ a:visited {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     #story{
         max-height: 250px;
     }
-    nav {
-      width: 90%
+    #resume{
+      margin-left: 10%
     }
+}
+
+@media screen and (min-width: 1500px){
+  .container {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 4000px;
+  }
+  body {
+    background-size: 100%;
+  }
 }
