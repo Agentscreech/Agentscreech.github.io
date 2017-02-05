@@ -1,0 +1,121 @@
+
+
+html {
+font-family: "Roboto", sans serif;
+font-weight: 200;
+}
+
+nav ul a.active {
+  background: rgba(0,0,0,0.2);
+}
+
+body {
+    background: url("../img/website-background.jpg") no-repeat center center fixed;
+    background-color: black;
+
+}
+.project {
+    background: url("../img/circuit_board.jpg")
+}
+
+#resume {
+    margin-left: 10%;
+    font-weight: 400;
+}
+
+#oldcpu {
+    display: none;
+    height: 100px;
+}
+
+.card-image {
+    overflow: hidden;
+    height: 160px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #C0FFFF;
+    white-space: nowrap;
+}
+
+a:visited {
+    color: #FBBC05;
+}
+
+
+#story {
+    max-height: 500px;
+    overflow-y: scroll;
+    color: #eee;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    background:
+		/* Shadow covers */
+		linear-gradient(rgba(80, 80, 80, .5) 30%, rgba(255,255,255,0)),
+		linear-gradient(rgba(255,255,255,0), rgba(80, 80, 80, .5) 70%) 0 100%,
+
+		/* Shadows */
+		radial-gradient(50% 0, farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)),
+		radial-gradient(50% 100%,farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+	background:
+		/* Shadow covers */
+		linear-gradient(rgba(80, 80, 80, .5 ) 30%, rgba(255,255,255,0)),
+		linear-gradient(rgba(255,255,255,0), rgba(80, 80, 80, .5) 70%) 0 100%,
+
+		/* Shadows */
+		radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.2), rgba(0,0,0,0)),
+		radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+	background-repeat: no-repeat;
+    background-color: rgba(80, 80, 80, 0.5);
+	background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+
+	/* Opera doesn't support this in the shorthand */
+	background-attachment: local, local, scroll, scroll;
+}
+
+#intro {
+    color: #EEE;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+
+
+#menu {
+    color: #EEE;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+
+#contact {
+    /*background-color: grey;*/
+    color: #EEE;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#contact img {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
+
+
+@media screen and (max-width: 450px) {
+    #story{
+        max-height: 250px;
+    }
+    #resume{
+      margin-left: 10%
+    }
+}
+
+@media screen and (min-width: 1500px){
+  .container {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 4000px;
+  }
+  body {
+    background-size: 100%;
+  }
+}

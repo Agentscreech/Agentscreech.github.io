@@ -1,80 +1,270 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8">
     <title>Home for all things Travis</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="img/png" href="img/Walentin_CoA_small.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-    <div id="container">
+    <div class="navbar-fixed">
+        <div class="nav-wrapper ">
+            <nav class="grey darken-3">
+                <a id="resume" href="https://resume.creddle.io/resume/jarvq7hpxnn">Resume</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons ">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#story">About Me</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
 
-        <nav id="navbar">
-            <a href="#intro">Introduction</a>
-            <a href="#projects">My Projects</a>
-            <a href="#contact">Contact Me</a>
-            <a href="#story">About Me</a>
-        </nav>
-        <div id="intro">
-
-            <h1>Travis Walentin</h1>
-            <p class="description">Welcome to the home for all things Travis.</p>
-            <p class="description">After over a decade of sales and business managment, I decided to follow a passion I've always wanted to do</p>
-            <h3>Software Development</h3>
-        </div>
-
-        <div id="story">
-            <h2 class="story">Background</h2>
-            <p class="story">My story begins in the late '80s where my step-father managed to have a <span id="olddx">486DX computer.  You know...the one that only ran DOS and had a monochrome output?</span></p>
-            <p class="story">He was able to teach me the basics of how to use it. He also showed me how to find out what commands were available to me and how to find out how to use them</p>
-            <p class="story">With that knowledge I found out that I could make texted based menus, draw rudementiary boxes with ASCII, and launch different programs with one button...at 8 years old</p>
-            <p class="story">This was a true calling for me at an early age. Later, in high school, I was able to learn <a href="https://en.wikipedia.org/wiki/TI-BASIC">BASIC</a> and wrote a program that took up the whopping 128kb memory of a TI-85 calulator. The program
-                was a slot machine </p>
-        </div>
-        <div id="projects">
-            <menu id="menu">
-                <h1>My Projects</h1>
-                <h3>Follow my progress</h3>
-                <div class="week">
-                    <a href="http://www.traviswalentin.com/wdi-fundamentals-memorygame/"><img src="img/memory-game-small.png" alt=""></a>
-                </div>
-                <div class="week">
-                    <a href="http://www.traviswalentin.com/temperature-converter-dom/"><img id="temperature" src="img/temperature_hot_small.png" alt=""></a>
-                </div>
-                <div class="week">
-                    <a href="http://www.traviswalentin.com/sim-city-bomb-squad/"><img id="sim-city" src="img/sim-city-bomb-squad_small.png" alt=""></a>
-                </div>
-                <div class="week">
-                    <a href="http://www.traviswalentin.com/tic-tac-toe/"><img id="tic" src="img/tictactoe_small.png" alt=""></a>
-                </div>
-                <div class="week">
-                    <a href="http://www.traviswalentin.com/cribbage-clone/"><img id="cribbage" src="img/cribbage_small.png" alt=""></a>
-                </div>
-
-                <div class="week">
-                    <a href="http://under-the-hood.herokuapp.com"><img id="under-the-hood" src="img/garage.png" alt=""></a>
-                </div>
-
-                <!-- <div class="week"><img src="img/temp.png" alt=""></div>
-                <div class="week"><img src="img/temp.png" alt=""></div>
-                <div class="week"><img src="img/temp.png" alt=""></div>
-                <div class="week"><img src="img/temp.png" alt=""></div>
-                <div class="week"><img src="img/temp.png" alt=""></div>
-                <div class="week"><img src="img/temp.png" alt=""></div> -->
-            </menu>
-        </div>
-        <div id="contact">
-            <h1>Contact Me</h1>
-            <a href="https://www.linkedin.com/in/traviswalentin"><img src="img/linkedin.png" alt=""></a>
-            <a href="https://www.github.com/Agentscreech"><img src="img/github.svg" alt=""></a>
+                </ul>
+            </nav>
         </div>
     </div>
+<ul class="side-nav grey darken-3" id="mobile-demo">
+    <li><a href="#intro">Introduction</a></li>
+    <li><a href="#story">About Me</a></li>
+    <li><a href="#projects">My Projects</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+
+</ul>
+    <div class="container">
+
+        <div id="intro" class="section scrollspy">
+
+            <h2 class="center-align">Travis Walentin</h2>
+            <h4 class="center-align">Welcome to the home for all things Travis.</h4>
+            <p class="flow-text center-align">After over a decade of sales and business managment, I decided to follow a passion I've always wanted to do: <strong>Software Development</strong></p>
+
+        </div>
+
+        <div id="story" class="card-panel section scrollspy">
+            <h3 class="story center-align truncate">Background</h3>
+            <img id="oldcpu" class="responsive-img right circle" src="img/486dx2.jpg" alt="">
+            <div id="revealcpu">
+                <p class="flow-text">My story begins in the late '80s where my step-father managed to have a <span id="olddx">486DX computer.  You know...the one that only ran MS-DOS and had a monochrome output?</span></p>
+            </div>
+            <p class="flow-text">He was able to teach me the basics of how to use it. He also showed me how to find out what commands were available to me and how to find out how to use them.</p>
+            <p class="flow-text">With that knowledge I found out that I could make texted based menus, draw rudementiary boxes with ASCII, and launch different programs by entering a single number...at 8 years old.</p>
+            <p class="flow-text">Growing up, I was the one that friends and family called to fixed their various electronics. Car stereos, home theaters, computers, home networks. I have always been able to learn and understand the concepts behind any thing technical extremely
+                quickly and usually on my own.</p>
+            <p class="flow-text">This was a true calling for me at an early age. Later, in high school I was able to learn on my own, <a href="https://en.wikipedia.org/wiki/TI-BASIC">BASIC</a> and wrote a program that took up the whopping 128kb memory of a TI-85 calulator.
+                The program was a slot machine.</p>
+            <p class="flow-text">After High School I continued learning computer networking, hardware and operating system repair which got me a job as a Geek Squad agent at Best Buy</p>
+            <p class="flow-text">From that job I progressively learn business and sales management. That eventually lead to me starting my own business where I sold industrial grade scientific instrumentation.</p>
+            <p class="flow-text">My other hobbies include, movies, video games, car racing (autocross, trackdays, etc), beach volleyball and tennis.</p>
+
+        </div>
+        <div id="menu" class="center-align">
+            <h3>My Projects</h3>
+            <h4>Follow my progress</h4>
+
+        </div>
+        <div id="projects" class="section scrollspy card-panel project">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable grey darken-3">
+                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
+                            <img class="activator valign" src="img/mean-coach.jpg">
+                        </div>
+                        <div class="card-content grey darken-3">
+                            <span class="card-title activator white-text text-darken-4">Mean Coach<i class="material-icons right">info_outline</i></span>
+                        </div>
+                        <div class="card-reveal grey darken-3">
+                            <span class="card-title grey-text text-lighten 4">Week 9, Project 3<i class="material-icons right">close</i></span>
+                            <p class="flow-text grey-text text-lighten 4">In a team of 3, we had a week to do a full stack MEAN application. Using MongoDB, ExpressJS, AngularJS, and NodeJS we built an app where you can track your meals and activities.</p>
+                            <p class="flow-text grey-text text-lighten 4">If you exceeded your daily goal, a random activity with the exact duration would be suggested to get you back to your goal</p>
+                            <p class="flow-text grey-text text-lighten 4">This is hosted on heroku, so it might take a few seconds for it to spin up before it renders</p>
+                            <p class="flow-text grey-text text-lighten 4">You can sign in with a test account if you don't want to sign up.  USERNAME: testing@app.com PASSWORD: testingapp</p>
+                            <div class="row">
+                                <div class="col s6">
+                                    <button class="btn-large blue"><a href="http://mean-coach.herokuapp.com">Demo</a></button>
+                                </div>
+                                <div class="col s6">
+                                    <button class="btn-floating btn-large right card-button"><a href="https://github.com/Agentscreech/MEAN-Coach"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable grey darken-3">
+                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
+                            <img class="activator valign" src="img/madlibs.jpg">
+                        </div>
+                        <div class="card-content grey darken-3">
+                            <span class="card-title activator white-text text-darken-4">Angular MadLibs<i class="material-icons right">info_outline</i></span>
+                        </div>
+                        <div class="card-reveal grey darken-3">
+                            <span class="card-title grey-text text-lighten 4">Week 8, Half-Day Hackathon<i class="material-icons right">close</i></span>
+                            <p class="flow-text grey-text text-lighten 4">In a team of 2, we had an afternoon to write a front-end framework app using Angular JS</p>
+                            <p class="flow-text grey-text text-lighten 4">The app recreates the classic MadLibs fill-in-the-blank game. You can choose from 3 movie templates to fill out and see how wild your script turns out</p>
+                            <div class="row">
+                                <div class="col s6">
+                                    <button class="btn-large blue"><a href="http://www.traviswalentin.com/Angular-MadLibs/">Demo</a></button>
+                                </div>
+                                <div class="col s6">
+                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/Angular-MadLibs"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable grey darken-3">
+                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
+                            <img class="activator valign" src="img/under-the-hood.jpg">
+                        </div>
+                        <div class="card-content grey darken-3">
+                            <span class="card-title activator white-text text-darken-4">Under the Hood<i class="material-icons right">info_outline</i></span>
+                        </div>
+                        <div class="card-reveal grey darken-3">
+                            <span class="card-title grey-text text-lighten 4">Week 6, Project 2<i class="material-icons right">close</i></span>
+                            <p class="flow-text grey-text text-lighten 4">Our first full stack app with authentication and full CRUD. This lets you log in and select your car from the Edmunds API. From that you will see all the specs on your car.</p>
+                            <p class="flow-text grey-text text-lighten 4">You can log services you performed on your car so that you have an accurate record of the maintainence you have done to your car(s)</p>
+                            <p class="flow-text grey-text text-lighten 4">This is hosted on heroku, so it might take a few seconds for it to spin up before it renders</p>
+                            <p class="flow-text grey-text text-lighten 4">You can sign in with a test account if you don't want to sign up.  USERNAME: test@test.com PASSWORD: tempword</p>
+                            <div class="row">
+                                <div class="col s6">
+                                    <button class="btn-large blue"><a href="http://under-the-hood.herokuapp.com">Demo</a></button>
+                                </div>
+                                <div class="col s6">
+                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/under-the-hood"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable grey darken-3">
+                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
+                            <img class="activator valign" src="img/cribbage.jpg">
+                        </div>
+                        <div class="card-content grey darken-3">
+                            <span class="card-title activator white-text text-darken-4">Cribbage<i class="material-icons right">info_outline</i></span>
+                        </div>
+                        <div class="card-reveal grey darken-3">
+                            <span class="card-title grey-text text-lighten 4">Week 3, Project 1<i class="material-icons right">close</i></span>
+                            <p class="flow-text grey-text text-lighten 4">The first big project. We were told we have 1 week to create a game in JavaScript.  I made Cribbage that you played against an AI.</p>
+                            <p class="flow-text grey-text text-lighten 4">Cribbage was a deceptivly hard game to program as there are many small actions that need to happen in the right order.  The scoring is exceptionally complex. I ended up having to use bitwise operators in some of the algorithms.</p>
+                            <p class="flow-text grey-text text-lighten 4">While not visually stunning, I've very proud of being able to make this fully funcitonal within the 1 week timeframe having only 2 weeks of instruction</p>
+                            <p class="flow-text grey-text text-lighten 4">If you aren't familiar with the game, you can brush up on the rules <a href="http://www.cribbage.org/rules/">here</a></p>
+                            <div class="row">
+                                <div class="col s6">
+                                    <button class="btn-large blue"><a href="http://www.traviswalentin.com/cribbage-clone/">Demo</a></button>
+                                </div>
+                                <div class="col s6">
+                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/cribbage-clone"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable grey darken-3">
+                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
+                            <img class="activator valign" src="img/tictactoe1.png">
+                        </div>
+                        <div class="card-content grey darken-3">
+                            <span class="card-title activator white-text text-darken-4">Tic Tac Toe<i class="material-icons right">info_outline</i></span>
+                        </div>
+                        <div class="card-reveal grey darken-3">
+                            <span class="card-title grey-text text-lighten 4">Week 1 Assignment<i class="material-icons right">close</i></span>
+                            <p class="flow-text grey-text text-lighten 4">The first weekend assignment.  We were told to make tic tac toe.</p>
+                            <p class="flow-text grey-text text-lighten 4">I was able to implement several bonus objectives. A victory conditional check, reset button and optional audio when you made a move.</p>
+                            <div class="row">
+                                <div class="col s6">
+                                    <button class="btn-large blue"><a href="http://www.traviswalentin.com/tic-tac-toe/">Demo</a></button>
+                                </div>
+                                <div class="col s6">
+                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/tic-tac-toe"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable grey darken-3">
+                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
+                            <img class="activator valign" src="img/temperature.jpg">
+                        </div>
+                        <div class="card-content grey darken-3">
+                            <span class="card-title activator white-text text-darken-4">Temp Converter<i class="material-icons right">info_outline</i></span>
+                        </div>
+                        <div class="card-reveal grey darken-3">
+                            <span class="card-title grey-text text-lighten 4">Day 3 Assignment<i class="material-icons right">close</i></span>
+                            <p class="flow-text grey-text text-lighten 4">This was the first real homework assignment. We were asked to make a site that converted temperatures from one measurement to another.</p>
+                            <p class="flow-text grey-text text-lighten 4">I added the feature of changing the background depending on result</p>
+                            <div class="row">
+                                <div class="col s6">
+                                    <button class="btn blue"><a href="http://www.traviswalentin.com/temperature-converter-dom/">Demo</a></button>
+                                </div>
+                                <div class="col s6">
+                                    <button class="btn right card-button"><a href="https://github.com/Agentscreech/temperature-converter-dom">Code  <i class="fa fa-github" aria-hidden="true"></i></a></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col s12 m6 l4">
+                    <div class="card hoverable grey darken-3">
+                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
+                            <img class="activator valign" src="img/temperature.jpg">
+                        </div>
+                        <div class="card-content grey darken-3">
+                            <span class="card-title activator white-text text-darken-4">Temp Converter<i class="material-icons right">info_outline</i></span>
+                        </div>
+                        <div class="card-reveal grey darken-3">
+                            <span class="card-title grey-text text-lighten 4">Week 1 Assignment<i class="material-icons right">close</i></span>
+                            <p class="grey-text text-lighten 4">This was the first real homework assignment that asked us to make a site that converted temperatures from one measurement to another.</p>
+                            <p class="grey-text text-lighten 4">I added the feature of changing the background depending on result</p>
+                            <div class="row">
+                                <div class="col s6">
+                                    <button class="btn blue"><a href="http://www.traviswalentin.com/temperature-converter-dom/">Demo</a></button>
+                                </div>
+                                <div class="col s6">
+                                    <button class="btn right card-button"><a href="https://github.com/Agentscreech/temperature-converter-dom">Code  <i class="fa fa-github" aria-hidden="true"></i></a></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div id="contact" class="section scrollspy">
+            <h2 class="center-align">Contact Me</h2>
+            <div class="col s12 center-align">
+                <a href="https://www.linkedin.com/in/traviswalentin"><img src="img/linkedin.png" alt=""></a>
+                <a href="https://www.github.com/Agentscreech"><img src="img/github.svg" alt=""></a>
+                <a href="https://resume.creddle.io/resume/jarvq7hpxnn"><img src="img/resume-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+        <footer class="page-footer grey darken-4">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h5>&copy 2017 Travis Walentin</h5>
+
+                </div>
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
-<script type="text/javascript" src="main.js">
-</script>
 
 </html>
