@@ -1,109 +1,114 @@
 
-#container {
-    height: 1700px;
-    position: relative;
-    background: url("img/website-background.jpg") no-repeat center center fixed
+
+html {
+font-family: "Roboto", sans serif;
+font-weight: 200;
 }
+
+nav{
+  width: 70%
+}
+
+nav ul a.active {
+  background: rgba(0,0,0,0.2);
+}
+
+body {
+    background: url("img/website-background.jpg") no-repeat center center fixed;
+    background-color: black;
+
+}
+.project {
+    background: url("img/circuit_board.jpg")
+}
+
+#resume {
+    margin-left: 50px;
+    font-weight: 400;
+}
+
+#oldcpu {
+    display: none;
+    height: 100px;
+}
+
+.card-image {
+    overflow: hidden;
+    height: 160px;
+}
+
 
 a {
     text-decoration: none;
     color: #C0FFFF;
+    white-space: nowrap;
 }
 
 a:visited {
-    color: #A0A0A0;
+    color: #FBBC05;
 }
 
-p {
-    text-align: center;
-}
-
-#navbar {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    min-width: 600px;
-    height: 100px;
-    /*background-color: rgba(50, 50, 50, 0.8);*/
-    top: 0px;
-    justify-content: center;
-    z-index: 999;
-}
 
 #story {
-    text-align: center;
-    background-color: rgba(80, 80, 80, 0.3);
-    color: #FFF;
+    max-height: 500px;
+    overflow-y: scroll;
+    color: #eee;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-}
+    background:
+		/* Shadow covers */
+		linear-gradient(rgba(80, 80, 80, .5) 30%, rgba(255,255,255,0)),
+		linear-gradient(rgba(255,255,255,0), rgba(80, 80, 80, .5) 70%) 0 100%,
 
-#navbar a {
-    display: inline-block;
-    text-decoration: none;
-    height: 90px;
-    width: 200px;
-    font-size: 30px;
-    line-height: 90px;
+		/* Shadows */
+		radial-gradient(50% 0, farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)),
+		radial-gradient(50% 100%,farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+	background:
+		/* Shadow covers */
+		linear-gradient(rgba(80, 80, 80, .5 ) 30%, rgba(255,255,255,0)),
+		linear-gradient(rgba(255,255,255,0), rgba(80, 80, 80, .5) 70%) 0 100%,
+
+		/* Shadows */
+		radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.2), rgba(0,0,0,0)),
+		radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+	background-repeat: no-repeat;
+    background-color: rgba(80, 80, 80, 0.5);
+	background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+
+	/* Opera doesn't support this in the shorthand */
+	background-attachment: local, local, scroll, scroll;
 }
 
 #intro {
-    /*background-color: blue;*/
-    /*margin-top: 100px;*/
-    text-align: center;
     color: #EEE;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
-#projects {
-    /*background-color: red;*/
-    height: 800px;
-    position: relative;
-    border: 10px solid;
-}
+
 
 #menu {
-    height: 560px;
-    /*width: 80%;
-    left: 8.5%;*/
-    position: absolute;
-    ;
-    /*background-color: purple;*/
-    overflow: scroll;
     color: #EEE;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
-.week {
-    height: 200px;
-    width: 200px;
-    /*background-color: green;*/
-    display: inline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /*border: 10px solid white;*/
-    margin: 0 35px;
-    margin-top: 25px;
-}
-
-.week img {
-    height: 200px;
-    width: 200px;
-    margin-top: 25px;
-}
 
 #contact {
     /*background-color: grey;*/
-    text-align: center;
     color: #EEE;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 #contact img {
-    height: 250px;
-    width: 250px;
-    margin: 0 100px;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
 }
 
-body {
-    background-color: black;
+
+@media screen and (max-width: 600px) {
+    #story{
+        max-height: 250px;
+    }
+    nav {
+      width: 90%
+    }
 }
