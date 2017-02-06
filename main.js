@@ -1,7 +1,7 @@
 $(document).ready(function() {
      $('.scrollspy').scrollSpy();
       $(".button-collapse").sideNav({
-          edge: 'right',
+          edge: "right",
           menuWidth: 150,
       });
     $('#revealcpu').hover(
