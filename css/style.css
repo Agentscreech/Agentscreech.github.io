@@ -9,9 +9,13 @@ nav ul a.active {
   background: rgba(0,0,0,0.2);
 }
 
+.card-title {
+  margin-bottom: 30px;
+}
+
 body {
     background: url("../img/website-background.jpg") no-repeat center center fixed;
-    background-color: black;
+    /*background-color: black;*/
 
 }
 .project {
@@ -19,7 +23,7 @@ body {
 }
 
 #resume {
-    margin-left: 10%;
+    margin-left: 25px;
     font-weight: 400;
 }
 
@@ -104,8 +108,8 @@ a:visited {
     #story{
         max-height: 250px;
     }
-    #resume{
-      margin-left: 10%
+    body {
+      background: url("../img/website-background.jpg");
     }
 }
 
@@ -118,4 +122,9 @@ a:visited {
   body {
     background-size: 100%;
   }
+  .card-image {
+      overflow: hidden;
+      height: 300px;
+  }
+
 }
