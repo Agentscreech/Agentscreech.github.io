@@ -103,7 +103,6 @@ a:visited {
     margin: 50px;
 }
 
-
 @media screen and (max-width: 450px) {
     #story{
         max-height: 250px;

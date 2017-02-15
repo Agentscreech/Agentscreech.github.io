@@ -23,7 +23,7 @@
                     <li><a href="#contact">Contact Me</a></li>
 
                 </ul>
-                <a id="resume" href="https://resume.creddle.io/resume/jarvq7hpxnn">Resume</a>
+                <a id="resume" target="_blank" href="https://resume.creddle.io/resume/jarvq7hpxnn">Resume</a>
             </div>
         </nav>
     </div>
@@ -46,171 +46,229 @@
 
         <div id="menu" class="center-align">
             <h3>My Projects</h3>
-            <h4>Follow my progress</h4>
 
         </div>
         <div id="projects" class="section scrollspy card-panel project">
             <div class="row">
                 <div class="col s12 m6 l4">
                     <div class="card hoverable grey darken-3">
-                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
-                            <img class="activator valign" src="img/mean-coach.jpg">
-                        </div>
-                        <div class="card-content grey darken-3">
-                            <span class="card-title activator white-text text-darken-4">Mean Coach<i class="material-icons right">info_outline</i></span>
-                        </div>
-                        <div class="card-reveal grey darken-3">
-                            <span class="card-title grey-text text-lighten 4">Week 9, Project 3<i class="material-icons right">close</i></span>
+                        <a href="#modalMean">
+                            <div class="card-image">
+                                <img class="" src="img/mean-coach.jpg">
+                            </div>
+                            <div class="card-content grey darken-3">
+                                <p class="card-title white-text text-darken-4">Mean Coach</p>
+                                <p class="flow-text white-text text-darken-4">Week 9, Project 3</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="modalMean" class="modal modal-fixed-footer grey darken-3">
+                        <div class="modal-content">
+                            <h3 class="grey-text text-lighten 4">Mean Coach<span class="modal-action modal-close right"><i class="material-icons">close</i></span></h3>
                             <div class="row">
-                                <div class="col s6">
-                                    <button class="btn-large blue"><a href="http://mean-coach.herokuapp.com">Demo</a></button>
+                                <div class="col s6 center-align">
+                                    <a target="_blank" href="http://mean-coach.herokuapp.com"><button class="btn-large blue">Demo</button></a>
                                 </div>
-                                <div class="col s6">
-                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/MEAN-Coach"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+                                <div class="col s6 center-align">
+                                    <button class="btn-large btn-floating  card-button"><a target="_blank" href="https://github.com/Agentscreech/MEAN-Coach"><i class="fa fa-github" aria-hidden="true"></i></a></button>
                                 </div>
                             </div>
-                            <p class="flow-text grey-text text-lighten 4">In a team of 3, we had a week to do a full stack MEAN application. Using MongoDB, ExpressJS, AngularJS, and NodeJS we built an app where you can track your meals and activities.</p>
+
+                            <p class="flow-text grey-text text-lighten 4">In a team of 3, we had a week to do a full stack MEAN application. Using <strong>MongoDB, ExpressJS, AngularJS, and NodeJS</strong> we built an app where you can track your meals and activities.</p>
                             <p class="flow-text grey-text text-lighten 4">If you exceeded your daily goal, a random activity with the exact duration would be suggested to get you back to your goal</p>
                             <p class="flow-text grey-text text-lighten 4">This is hosted on heroku, so it might take a few seconds for it to spin up before it renders</p>
-                            <p class="flow-text grey-text text-lighten 4">You can sign in with a test account if you don't want to sign up. USERNAME: testing@app.com PASSWORD: testingapp</p>
+                            <p class="flow-text grey-text text-lighten 4">You can sign in with a test account if you don't want to sign up. <strong>USERNAME: testing@app.com PASSWORD: testingapp</strong></p>
+                        </div>
+                        <div class="modal-footer grey darken-3">
+                            <a href="#modalMovie" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 left btn-flat">Previous</a>
                         </div>
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
                     <div class="card hoverable grey darken-3">
-                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
-                            <img class="activator valign" src="img/madlibs.jpg">
-                        </div>
-                        <div class="card-content grey darken-3">
-                            <span class="card-title activator white-text text-darken-4">Movie MadLibs<i class="material-icons right">info_outline</i></span>
-                        </div>
-                        <div class="card-reveal grey darken-3">
-                            <span class="card-title grey-text text-lighten 4">Week 8, Half-Day Hackathon<i class="material-icons right">close</i></span>
+                        <a href="#modalMovie">
+                            <div class="card-image">
+                                <img src="img/madlibs.jpg">
+                            </div>
+                            <div class="card-content grey darken-3">
+                                <p class="card-title white-text text-darken-4">Movie MadLibs</p>
+                                <p class="flow-text white-text text-darken-4">Week 8</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="modalMovie" class="modal modal-fixed-footer grey darken-3">
+                        <div class="modal-content grey-text text-lighten 4">
+                            <h3>Movie MadLibs<span class="modal-action modal-close right"><i class="material-icons">close</i></span></h3>
                             <div class="row">
-                                <div class="col s6">
-                                    <button class="btn-large blue"><a href="http://www.traviswalentin.com/Angular-MadLibs/">Demo</a></button>
+                                <div class="col s6 center-align">
+                                    <a target="_blank" href="http://www.traviswalentin.com/Angular-MadLibs/"><button class="btn-large blue">Demo</button></a>
                                 </div>
-                                <div class="col s6">
-                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/Angular-MadLibs"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+                                <div class="col s6 center-align">
+                                    <a target="_blank" href="https://github.com/Agentscreech/Angular-MadLibs"><button class="btn-large btn-floating card-button"><i class="fa fa-github" aria-hidden="true"></i></button></a>
 
                                 </div>
                             </div>
-                            <p class="flow-text grey-text text-lighten 4">In a team of 2, we had an afternoon to write a front-end framework app using Angular JS</p>
+                            <p class="flow-text grey-text text-lighten 4">In a team of 2, we had an afternoon to write a front-end framework app using <strong>Angular JS</strong></p>
                             <p class="flow-text grey-text text-lighten 4">The app recreates the classic MadLibs fill-in-the-blank game. You can choose from 3 movie templates to fill out and see how wild your script turns out</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4">
-                    <div class="card hoverable grey darken-3">
-                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
-                            <img class="activator valign" src="img/under-the-hood-min.jpg">
-                        </div>
-                        <div class="card-content grey darken-3">
-                            <span class="card-title activator white-text text-darken-4">Under the Hood<i class="material-icons right">info_outline</i></span>
-                        </div>
-                        <div class="card-reveal grey darken-3">
-                            <span class="card-title grey-text text-lighten 4">Week 6, Project 2<i class="material-icons right">close</i></span>
-                            <div class="row">
-                                <div class="col s6">
-                                    <button class="btn-large blue"><a href="http://under-the-hood.herokuapp.com">Demo</a></button>
-                                </div>
-                                <div class="col s6">
-                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/under-the-hood"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+                        <div class="modal-footer grey darken-3">
+                            <a href="#modalHood" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat left">Previous</a>
+                            <a href="#modalMean" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat right">Next</a>
 
-                                </div>
-                            </div>
-                            <p class="flow-text grey-text text-lighten 4">Our first full stack app with authentication and full CRUD. This lets you log in and select your car from the Edmunds API. From that you will see all the specs on your car.</p>
-                            <p class="flow-text grey-text text-lighten 4">You can log services you performed on your car so that you have an accurate record of the maintenance you have done to your car(s)</p>
-                            <p class="flow-text grey-text text-lighten 4">This is hosted on heroku, so it might take a few seconds for it to spin up before it renders</p>
-                            <p class="flow-text grey-text text-lighten 4">You can sign in with a test account if you don't want to sign up. USERNAME: test@test.com PASSWORD: tempword</p>
                         </div>
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
                     <div class="card hoverable grey darken-3">
-                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
-                            <img class="activator valign" src="img/cribbage-min.jpg">
-                        </div>
-                        <div class="card-content grey darken-3">
-                            <span class="card-title activator white-text text-darken-4">Cribbage<i class="material-icons right">info_outline</i></span>
-                        </div>
-                        <div class="card-reveal grey darken-3">
-                            <span class="card-title grey-text text-lighten 4">Week 3, Project 1<i class="material-icons right">close</i></span>
-                            <div class="row">
-                                <div class="col s6">
-                                    <button class="btn-large blue"><a href="http://www.traviswalentin.com/cribbage-clone/">Demo</a></button>
+                        <a href="#modalHood">
+                            <div class="card-image">
+                                <img class="" src="img/under-the-hood-min.jpg">
+                            </div>
+                            <div class="card-content grey darken-3">
+                                <p class="card-title white-text text-darken-4">Under the Hood</p>
+                                <p class="flow-text white-text text-darken-4">Week 6, Project 2</p>
+                            </div>
+                        </a>
+                        <div id="modalHood" class="modal modal-fixed-footer grey darken-3">
+                            <div class="modal-content grey-text text-lighten 4">
+                                <h3>Under the Hood<span class="modal-action modal-close right"><i class="material-icons">close</i></span></h3>
+                                <div class="row">
+                                    <div class="col s6 center-align">
+                                        <a target="_blank" href="http://under-the-hood.herokuapp.com"><button class="btn-large blue">Demo</button></a>
+                                    </div>
+                                    <div class="col s6 center-align">
+                                        <a target="_blank" href="https://github.com/Agentscreech/under-the-hood"><button class="btn-large btn-floating card-button"><i class="fa fa-github" aria-hidden="true"></i></button></a>
+                                    </div>
                                 </div>
-                                <div class="col s6">
-                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/cribbage-clone"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+                                <p class="flow-text grey-text text-lighten 4">Our first full stack app with authentication and full CRUD. This lets you log in and select your car from the Edmunds API. From that you will see all the specs on your car.</p>
+                                <p class="flow-text grey-text text-lighten 4">You can log services you performed on your car so that you have an accurate record of the maintenance you have done to your car(s)</p>
+                                <p class="flow-text grey-text text-lighten 4">This is hosted on heroku, so it might take a few seconds for it to spin up before it renders</p>
+                                <p class="flow-text grey-text text-lighten 4">You can sign in with a test account if you don't want to sign up. <strong>USERNAME: test@test.com PASSWORD: tempword</strong></p>
+                            </div>
+                            <div class="modal-footer grey darken-3">
+                                <a href="#modalGame" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat left">Previous</a>
+                                <a href="#modalMovie" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat right">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable grey darken-3">
+                        <a href="#modalGame">
 
-                                </div>
+                            <div class="card-image">
+                                <img class="" src="img/cribbage-min.jpg">
                             </div>
-                            <p class="flow-text grey-text text-lighten 4">The first big project. We were told we had 1 week to create a game in JavaScript. I made Cribbage that you played against an AI.</p>
-                            <p class="flow-text grey-text text-lighten 4">Cribbage was a deceptively hard game to program as there are many small actions that need to happen in the right order. The scoring is exceptionally complex. I ended up having to use bitwise operators in some of the algorithms.</p>
-                            <p class="flow-text grey-text text-lighten 4">While not visually stunning, I've very proud of being able to make this fully functional within the 1 week timeframe having only 2 weeks of instruction</p>
-                            <p class="flow-text grey-text text-lighten 4">If you aren't familiar with the game, you can brush up on the rules <a href="http://www.cribbage.org/rules/">here</a></p>
+                            <div class="card-content grey darken-3">
+                                <p class="card-title white-text text-darken-4">Cribbage</p>
+                                <p class="flow-text white-text text-darken-4">Week 3, Project 1</p>
+
+                            </div>
+                        </a>
+                        <div id="modalGame" class="modal modal-fixed-footer grey darken-3">
+                            <div class="modal-content grey-text text-lighten 4">
+                                <h3>Cribbage<span class="modal-action modal-close right"><i class="material-icons">close</i></span></h3>
+                                <div class="row">
+                                    <div class="col s6 center-align">
+                                        <a target="_blank" href="http://www.traviswalentin.com/cribbage-clone/"><button class="btn-large blue">Demo</button></a>
+                                    </div>
+                                    <div class="col s6 center-align">
+                                        <a target="_blank" href="https://github.com/Agentscreech/cribbage-clone"><button class="btn-large btn-floating card-button"><i class="fa fa-github" aria-hidden="true"></i></button></a>
+
+                                    </div>
+                                </div>
+                                <p class="flow-text grey-text text-lighten 4">The first big project. We were told we had 1 week to create a game in JavaScript. I made Cribbage that you played against an AI.</p>
+                                <p class="flow-text grey-text text-lighten 4">Cribbage was a deceptively hard game to program as there are many small actions that need to happen in the right order. The scoring is exceptionally complex. I ended up having to use bitwise operators in some of the algorithms.
+                                </p>
+                                <p class="flow-text grey-text text-lighten 4">While not visually stunning, I've very proud of being able to make this fully functional within the 1 week timeframe having only 2 weeks of instruction</p>
+                                <p class="flow-text grey-text text-lighten 4">If you aren't familiar with the game, you can brush up on the rules <a href="http://www.cribbage.org/rules/">here</a></p>
+                            </div>
+                            <div class="modal-footer grey darken-3">
+                                <a href="#modalToe" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat left">Previous</a>
+                                <a href="#modalHood" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat right">Next</a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
                     <div class="card hoverable grey darken-3">
-                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
-                            <img class="activator valign" src="img/tictactoe1.png">
-                        </div>
-                        <div class="card-content grey darken-3">
-                            <span class="card-title activator white-text text-darken-4">Tic Tac Toe<i class="material-icons right">info_outline</i></span>
-                        </div>
-                        <div class="card-reveal grey darken-3">
-                            <span class="card-title grey-text text-lighten 4">Weekend Work <i class="material-icons right">close</i></span>
+                        <a href="#modalToe">
+                            <div class="card-image">
+                                <img class="" src="img/tictactoe1.png">
+                            </div>
+                            <div class="card-content grey darken-3">
+                                <p class="card-title white-text text-darken-4">Tic-Tac-Toe</p>
+                                <p class="flow-text white-text text-darken-4">Week 1</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="modalToe" class="modal modal-fixed-footer grey darken-3">
+                        <div class="modal-content grey-text text-lighten 4">
+                            <h3>Tic-Tac-Toe<span class="modal-action modal-close right"><i class="material-icons">close</i></span></h3>
                             <div class="row">
-                                <div class="col s6">
-                                    <button class="btn-large blue"><a href="http://www.traviswalentin.com/tic-tac-toe/">Demo</a></button>
+                                <div class="col s6 center-align">
+                                    <a target="_blank" href="http://www.traviswalentin.com/tic-tac-toe/"><button class="btn-large blue">Demo</button></a>
                                 </div>
-                                <div class="col s6">
-                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/tic-tac-toe"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+                                <div class="col s6 center-align">
+                                    <a target="_blank" href="https://github.com/Agentscreech/tic-tac-toe"><button class="btn-large btn-floating card-button"><i class="fa fa-github" aria-hidden="true"></i></button></a>
 
                                 </div>
                             </div>
                             <p class="flow-text grey-text text-lighten 4">The first weekend assignment. We were told to make tic tac toe.</p>
                             <p class="flow-text grey-text text-lighten 4">I was able to implement several bonus objectives. A victory conditional check, reset button and optional audio when you made a move.</p>
                         </div>
+                        <div class="modal-footer grey darken-3">
+                            <a href="#modalTemp" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat left">Previous</a>
+                            <a href="#modalGame" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat right">Next</a>
+
+                        </div>
                     </div>
                 </div>
-
                 <div class="col s12 m6 l4">
                     <div class="card hoverable grey darken-3">
-                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
-                            <img class="activator valign" src="img/temperature.jpg">
-                        </div>
-                        <div class="card-content grey darken-3">
-                            <span class="card-title activator white-text text-darken-4">Temp Converter<i class="material-icons right">info_outline</i></span>
-                        </div>
-                        <div class="card-reveal grey darken-3">
-                            <span class="card-title grey-text text-lighten 4">Day 3 Assignment<i class="material-icons right">close</i></span>
-                            <div class="row">
-                                <div class="col s6">
-                                    <button class="btn-large blue"><a href="http://www.traviswalentin.com/temperature-converter-dom/">Demo</a></button>
-                                </div>
-                                <div class="col s6">
-                                    <button class="btn-large btn-floating right card-button"><a href="https://github.com/Agentscreech/temperature-converter-dom"><i class="fa fa-github" aria-hidden="true"></i></a></button>
-
-                                </div>
+                        <a href="#modalTemp">
+                            <div class="card-image">
+                                <img class="" src="img/temperature.jpg">
                             </div>
-                            <p class="flow-text grey-text text-lighten 4">This was the first real homework assignment. We were asked to make a site that converted temperatures from one measurement to another.</p>
-                            <p class="flow-text grey-text text-lighten 4">I added the feature of changing the background depending on result</p>
+                            <div class="card-content grey darken-3">
+                                <p class="card-title white-text text-darken-4">Temp Converter</p>
+                                <p class="flow-text white-text text-darken-4">Day 3</p>
+                            </div>
+                        </a>
+                        <div id="modalTemp" class="modal modal-fixed-footer grey darken-3">
+                            <div class="modal-content grey-text text-lighten 4">
+                                <h3>Temp Converter<span class="modal-action modal-close right"><i class="material-icons">close</i></span></h3>
+                                <div class="row">
+                                    <div class="col s6 center-align">
+                                        <a target="_blank" href="http://www.traviswalentin.com/temperature-converter-dom/"><button class="btn-large blue">Demo</button></a>
+                                    </div>
+                                    <div class="col s6 center-align">
+                                        <a target="_blank" href="https://github.com/Agentscreech/temperature-converter-dom"><button class="btn-large btn-floating card-button"><i class="fa fa-github" aria-hidden="true"></i></button></a>
+
+                                    </div>
+                                </div>
+                                <p class="flow-text grey-text text-lighten 4">This was the first real homework assignment. We were asked to make a site that converted temperatures from one measurement to another.</p>
+                                <p class="flow-text grey-text text-lighten 4">I added the feature of changing the background depending on result</p>
+                            </div>
+                            <div class="modal-footer grey darken-3">
+                                <a href="#modalPre" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat left">Previous</a>
+                                <a href="#modalToe" class="modal-action modal-close waves-effect waves-green grey-text text-lighten 4 btn-flat right">Next</a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- <div class="col s12 m6 l4">
                     <div class="card hoverable grey darken-3">
-                        <div class="card-image valign-wrapper waves-effect waves-block waves-light">
-                            <img class="activator valign" src="img/temperature.jpg">
+                        <div class="card-image">
+                            <img class="" src="img/temperature.jpg">
                         </div>
                         <div class="card-content grey darken-3">
-                            <span class="card-title activator white-text text-darken-4">Temp Converter<i class="material-icons right">info_outline</i></span>
+                            <span class="card-title white-text text-darken-4">Temp Converter<a class="btn-floating right waves-effect waves-light" href="#modal"><i class="material-icons right">info_outline</i></a></span>
                         </div>
-                        <div class="card-reveal grey darken-3">
-                            <span class="card-title grey-text text-lighten 4">Week 1 Assignment<i class="material-icons right">close</i></span>
+                        <div id="modal "  class="modal grey darken-3">
+                            <div class="modal-content text-lighten 4">Week 1 Assignment<i class="material-icons right">close</i></span>
                             <p class="grey-text text-lighten 4">This was the first real homework assignment that asked us to make a site that converted temperatures from one measurement to another.</p>
                             <p class="grey-text text-lighten 4">I added the feature of changing the background depending on result</p>
                             <div class="row">
@@ -227,6 +285,7 @@
                 </div> -->
             </div>
         </div>
+
         <div id="story" class="card-panel section scrollspy">
             <h3 class="story center-align truncate">Background</h3>
             <img id="oldcpu" class="responsive-img right circle" src="img/486dx2.jpg" alt="">
@@ -236,7 +295,10 @@
             <p class="flow-text">He was able to teach me the basics of how to use it. He also showed me how to find out what commands were available to me and how to find out how to use them.</p>
             <p class="flow-text">With that knowledge I found out that I could make texted based menus, draw rudimentary boxes with ASCII, and launch different programs by entering a single number...at 8 years old.</p>
 
-            <p class="flow-text">Working with electronics and computers has always been a true calling for me beginning at an early age. I have always been able to learn and understand the concepts behind anything technical extremely quickly and usually on my own.  My grandfather, an engineer, was amazed as he watched me take some of his small electrical devices apart and put them back together at the age of four.  Growing up, I was the one that friends and family called to fixed their various electronics; car stereos, home theaters, computers, home networks, etc.  Later in high school I was able to learn <a href="https://en.wikipedia.org/wiki/TI-BASIC">BASIC</a> on my own and wrote a program that took up the whopping 128kb memory of a TI-85 calculator. The program was a slot machine.</p>
+            <p class="flow-text">Working with electronics and computers has always been a true calling for me beginning at an early age. I have always been able to learn and understand the concepts behind anything technical extremely quickly and usually on my own. My grandfather,
+                an engineer, was amazed as he watched me take some of his small electrical devices apart and put them back together at the age of four. Growing up, I was the one that friends and family called to fixed their various electronics; car stereos,
+                home theaters, computers, home networks, etc. Later in high school I was able to learn <a href="https://en.wikipedia.org/wiki/TI-BASIC">BASIC</a> on my own and wrote a program that took up the whopping 128kb memory of a TI-85 calculator.
+                The program was a slot machine.</p>
             <p class="flow-text">After High School I continued to learn computer networking, hardware and operating system repair on my own which got me a job as a Geek Squad agent at Best Buy</p>
             <p class="flow-text">From that passion, I progressively studied business and sales management which eventually lead me to start my own business selling industrial grade scientific instrumentation.</p>
             <p class="flow-text">My other hobbies include, movies, video games, car racing (autocross, trackdays, etc), beach volleyball and tennis.</p>
