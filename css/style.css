@@ -50,18 +50,18 @@ a:visited {
 
 
 #story {
-    max-height: 500px;
-    overflow-y: scroll;
+    /*max-height: 500px;*/
+    /*overflow-y: scroll;*/
     color: #eee;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    /*text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;*/
     background:
 		/* Shadow covers */
-		linear-gradient(rgba(80, 80, 80, .5) 30%, rgba(255,255,255,0)),
-		linear-gradient(rgba(255,255,255,0), rgba(80, 80, 80, .5) 70%) 0 100%,
+		/*linear-gradient(rgba(80, 80, 80, .5) 30%, rgba(255,255,255,0)),
+		linear-gradient(rgba(255,255,255,0), rgba(80, 80, 80, .5) 70%) 0 100%,*/
 
 		/* Shadows */
-		radial-gradient(50% 0, farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)),
-		radial-gradient(50% 100%,farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+		/*radial-gradient(50% 0, farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)),
+		radial-gradient(50% 100%,farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;*/
 	background:
 		/* Shadow covers */
 		linear-gradient(rgba(80, 80, 80, .5 ) 30%, rgba(255,255,255,0)),
