@@ -123,7 +123,13 @@ only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx){
   body {
-  background: url("../img/website-background.jpg") no-repeat center center scroll;
+background: #000000 url('../img/website-background.jpg') no-repeat fixed top center;
+background-size: cover;
+-webkit-background-size: cover; /* safari may need this */
+}
+html {
+height: 100vh; /* set viewport constraint */
+min-height: 100%; /* enforce height */
 }
 
 
