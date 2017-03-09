@@ -126,13 +126,10 @@ only screen and (min-resolution: 2dppx){
   position: fixed;
   top: 0;
   left: 0;
-
+  background: url("../img/website-background.jpg") no-repeat center center fixed;
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
-  /*body {
-  background: url("../img/website-background.jpg") no-repeat center center fixed;
-  }*/
 }
 
 
