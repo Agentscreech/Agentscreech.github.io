@@ -122,10 +122,19 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx){
-    body {
-        background: url("../img/website-background.jpg") no-repeat center center fixed;
-    }
+  body {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  /*body {
+  background: url("../img/website-background.jpg") no-repeat center center fixed;
+  }*/
 }
+
 
 @media screen and (min-width: 1500px){
   .container {
