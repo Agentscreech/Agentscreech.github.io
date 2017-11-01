@@ -1,0 +1,11 @@
+#myButtonOn !important {
+  font-family: "compactfeedicons";
+  content: '\e67e';
+  font-size: 1.2rem;
+}
+
+#myButtonOff !important {
+  font-family: "compactfeedicons";
+  content: '\e675';
+  font-size: 1.2rem;
+}
